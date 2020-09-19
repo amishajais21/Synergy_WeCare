@@ -404,47 +404,69 @@ hr{
 }
 
 
-
-
-
-
-
-
-
-/*
-
-#back{
-	
-	color: white;
-	margin-bottom: 0;
-	padding-left: 9px;
-	position: relative;
-	bottom: 40px;
-}
-#back img{
-width: 30%;
-	height: 110px;
-	float: right;
-
-}
-#back h2 .hello{
-	font-size: 20px;
-	font-family: 'Piedra', cursive;
-}
-#back h2 .han{
-	font-size: 20px;
-	font-family: 'Piedra', cursive;
-}
-#back h1{
-	font-family: 'Metal Mania', cursive;
-}
-#back h2{
-	font-family: 'Piedra', cursive;
-
-} */
-
 body{
 	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
 }
+
+article{
+	padding: 0;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 3px 0 10px rgba(0,0,0,0,05);
+	background: #fff;
+	display: block;
+}
+article a{
+	color: #005cb9;
+	transition:  0.3s all ease-in-out;
+}
+article img{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+article .content{
+	padding: 20px;
+}
+article .content strong{
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #636569;
+}
+article .content h4{
+	margin: 0 0 10px 0;
+	color: #004ea8;
+	font-size: 20px;
+}
+
+#blog .row{
+	padding: 30px;
+background: rgba(255,255,255,0.8);
+}
+.row: before{
+
+}
+
+#blog{
+	background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+position: relative;
+bottom: 24px;
+}
+
+div .aatman {
+	padding: 20px;
+	margin-bottom: 35px;
+   
+}
+div .aatman h1{
+	font-weight: bold;
+font-family: 'Hammersmith One', sans-serif;
+}
+div .aatman span{
+	font-size: 30px;
+	font-family: 'Hammersmith One', sans-serif;
+	text-decoration-line: none;
+}
+
 
 
