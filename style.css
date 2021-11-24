@@ -440,6 +440,7 @@ article .content h4{
 }
 
 #blog .row{
+	margin-right:0;
 	padding: 30px;
 background: rgba(255,255,255,0.8);
 }
